@@ -27,7 +27,7 @@ end = 20180101
 factor_list  = ['BBI','RVI','Elder','ChaikinVolatility','EPS','PE','PS','ACCA','CTOP','MA10RegressCoeff12','AR','BR','ARBR','np_parent_comp_ttm','total_share','bps']
 check_factor = ','.join(factor_list)
 
-dataview_folder = r'E:/data'
+dataview_folder = r'H:/sxzy/data'
 ds = LocalDataService(fp = dataview_folder)
 
 SH_id = ds.query_index_member("000001.SH", start, end)
